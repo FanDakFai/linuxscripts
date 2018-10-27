@@ -1,4 +1,4 @@
-# springboot_scaffold
+# Project springboot_scaffold
 Scaffold with springboot framework (jpa repository, spring mvc, thymeleaf)
 
 # Process overview
@@ -7,6 +7,7 @@ instance will modify the model object of Thymeleaf framework for it requested
 rendering. Then it returns render requested Thymeleaf view.
 
 # Process in detail
+## Process in detail
 * Toplevel 'process' method:
     * Package requests into Scaffold framework model object
     * Determine target usecase base on 'op' request parameters
