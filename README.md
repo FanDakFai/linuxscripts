@@ -22,8 +22,8 @@ rendering. Then it returns render requested Thymeleaf view.
     * Prefix convention:
       * Prefix 'show': render form method
       * Prefix 'do'  : process form method, render action will be delegated to another controller via Thymeleaf redirecting mechanism
-        1. one
-        2. two
+        . one
+        . two
 * Usecase list:
     * Usecases that operate on root object
       * showRootListPage: 
