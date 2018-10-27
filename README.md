@@ -1,5 +1,5 @@
 # Project springboot_scaffold
-Scaffold with springboot framework (jpa repository, spring mvc, thymeleaf)
+Craete Scaffold for springboot framework (jpa repository, spring mvc, thymeleaf)
 
 # Process overview
 Thymeleaf controller will invoke 'process' method of form instance. The form
@@ -13,8 +13,11 @@ rendering. Then it returns render requested Thymeleaf view.
 * Invoke usecase correspondence method
 ## Usecase correspondence methods:
 ### Concepts:
-* Root object:  target object will be persisted via Repository
-* Child object: property of Root object travel by subform editing
+* Root object:   target object will be persisted via Repository
+* Child object:  property of Root object travel by subform editing
+* SessionObject: For usecases that leverage subform to fullfill its operations, multiple request states need to be persisted into an session object. It holds:
+    * ICommandObject: object hold posted or rendered data of http form
+    * Utilities: object hold utilities helper object like key converter, request utilities...
 ### Usecase classification:
 * Usecases that operate on root object
 * Usecases that operate on child object
@@ -22,12 +25,19 @@ rendering. Then it returns render requested Thymeleaf view.
 * Prefix convention:
 * Prefix 'show': render form method
 * Prefix 'do'  : process form method, render action will be delegated to another controller via Thymeleaf redirecting mechanism
-    * one
-    * two
 ### Usecase list:
 * Usecases that operate on root object
-    * showRootListPage: 
+    * showRootListPage:
+        * Clear session
+        * Delegate repository to load list of root objects
+        * Create Thymeleaf model attribute variable
+        * Return related template so that Thymeleaf could render content
     * showRootCreatePage: 
+        * 
+        * 
+        * 
+        * 
+        * Return related template so that Thymeleaf could render content
     * showRootDetailPage: 
     * doRootDeletePage: 
     * doCreateRootPage: 
