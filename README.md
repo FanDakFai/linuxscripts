@@ -12,28 +12,28 @@ rendering. Then it returns render requested Thymeleaf view.
 * Determine target usecase base on 'op' request parameters
 * Invoke usecase correspondence method
 ## Usecase correspondence methods:
-1. Concepts:
-    * Root object:  target object will be persisted via Repository
-    * Child object: property of Root object travel by subform editing
-2. Usecase classification:
-    * Usecases that operate on root object
-    * Usecases that operate on child object
-3. Usecase name convention:
-    * Prefix convention:
-      * Prefix 'show': render form method
-      * Prefix 'do'  : process form method, render action will be delegated to another controller via Thymeleaf redirecting mechanism
-        * one
-        * two
-4. Usecase list:
-    * Usecases that operate on root object
-      * showRootListPage: 
-      * showRootCreatePage: 
-      * showRootDetailPage: 
-      * doRootDeletePage: 
-      * doCreateRootPage: 
-      * doUpdateRootPage: 
-    * Usecases that operate on child object
-      * doChildCreatePage: 
-      * showChildViewPage: 
-      * doChildDeletePage: 
-      * T.B.D (be added more)
+### Concepts:
+* Root object:  target object will be persisted via Repository
+* Child object: property of Root object travel by subform editing
+### Usecase classification:
+* Usecases that operate on root object
+* Usecases that operate on child object
+### Usecase name convention:
+* Prefix convention:
+* Prefix 'show': render form method
+* Prefix 'do'  : process form method, render action will be delegated to another controller via Thymeleaf redirecting mechanism
+    * one
+    * two
+### Usecase list:
+* Usecases that operate on root object
+    * showRootListPage: 
+    * showRootCreatePage: 
+    * showRootDetailPage: 
+    * doRootDeletePage: 
+    * doCreateRootPage: 
+    * doUpdateRootPage: 
+* Usecases that operate on child object
+    * doChildCreatePage: 
+    * showChildViewPage: 
+    * doChildDeletePage: 
+    * T.B.D (be added more)
