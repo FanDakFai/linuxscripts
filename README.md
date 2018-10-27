@@ -13,26 +13,27 @@ rendering. Then it returns render requested Thymeleaf view.
 * Invoke usecase correspondence method
 ## Usecase correspondence methods:
 * Concepts:
-    * Root object  - target object will be persisted via Repository
-    * Child object - property of Root object travel by subform editing
+    * Root object:  target object will be persisted via Repository
+    * Child object: property of Root object travel by subform editing
 * Usecase classification:
     * Usecases that operate on root object
     * Usecases that operate on child object
 * Usecase name convention:
-    * Prefix convetion:
-      * Prefix 'show': method render form
-      * Prefix 'do'  : method process form, render action will be delegate to another controller via Thymeleaf redirecting mechanism
+    * Prefix convention:
+      * Prefix 'show': render form method
+      * Prefix 'do'  : process form method, render action will be delegated to another controller via Thymeleaf redirecting mechanism
+        1. one
+        2. two
 * Usecase list:
     * Usecases that operate on root object
       * showRootListPage: 
-      * showRootCreatePage
-      * showRootDetailPage
-      * doRootDeletePage
-      * doCreateRootPage
-      * doUpdateRootPage
+      * showRootCreatePage: 
+      * showRootDetailPage: 
+      * doRootDeletePage: 
+      * doCreateRootPage: 
+      * doUpdateRootPage: 
     * Usecases that operate on child object
-      * doChildCreatePage
-      * showChildViewPage
-      * doChildDeletePage
+      * doChildCreatePage: 
+      * showChildViewPage: 
+      * doChildDeletePage: 
       * T.B.D (be added more)
-
