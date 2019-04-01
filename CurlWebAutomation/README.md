@@ -32,24 +32,24 @@ Steps include:
     * Adding details are as below:
 
 𝘱𝘰𝘮.𝘹𝘮𝘭.𝘱𝘢𝘵𝘤𝘩
-```sh
-      </dependencies>
-        ...
-        <dependency>
-            <groupId>org.phamsodiep.template</groupId>
-            <artifactId>newnosql-repository-skeleton</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-      </dependencies>
+```xml
+</dependencies>
+  ...
+  <dependency>
+      <groupId>org.phamsodiep.template</groupId>
+      <artifactId>newnosql-repository-skeleton</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+  </dependency>
+</dependencies>
 ```
 
 𝘊𝘶𝘴𝘵𝘰𝘮𝘦𝘳𝘈𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯.𝘫𝘢𝘷𝘢.𝘱𝘢𝘵𝘤𝘩
 ```sh
-      @SpringBootApplication
-      @𝗘𝗻𝗮𝗯𝗹𝗲𝗡𝗲𝘄𝗡𝗼𝘀𝗾𝗹𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗲𝘀
-      public class CustomerApplication {
-        ...
-      }
+@SpringBootApplication
+@𝗘𝗻𝗮𝗯𝗹𝗲𝗡𝗲𝘄𝗡𝗼𝘀𝗾𝗹𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗲𝘀
+public class CustomerApplication {
+  ...
+}
 ```
 
 ### Build
