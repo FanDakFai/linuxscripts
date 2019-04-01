@@ -16,12 +16,12 @@ Procedure includes:
 * Test
 
 ### Pre-build
-Steps include:
-* Importing
-  * Importing 𝘴𝘱𝘳𝘪𝘯𝘨_𝘵𝘩𝘺𝘮𝘦𝘭𝘦𝘢𝘧_𝘴𝘵𝘢𝘳𝘵𝘦𝘳_𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯 for patching
-  * 𝘴𝘱𝘳𝘪𝘯𝘨_𝘵𝘩𝘺𝘮𝘦𝘭𝘦𝘢𝘧_𝘴𝘵𝘢𝘳𝘵𝘦𝘳_𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯 patching
-  * Importing 𝘮𝘢𝘷𝘦𝘯 𝘵𝘢𝘬𝘢𝘳𝘪 𝘱𝘭𝘶𝘨𝘪𝘯
-* Importing notes:
+This does importing and patching, steps include:
+* Importing 𝘴𝘱𝘳𝘪𝘯𝘨_𝘵𝘩𝘺𝘮𝘦𝘭𝘦𝘢𝘧_𝘴𝘵𝘢𝘳𝘵𝘦𝘳_𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯 for patching
+* 𝘴𝘱𝘳𝘪𝘯𝘨_𝘵𝘩𝘺𝘮𝘦𝘭𝘦𝘢𝘧_𝘴𝘵𝘢𝘳𝘵𝘦𝘳_𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯 patching
+* Importing 𝘮𝘢𝘷𝘦𝘯 𝘵𝘢𝘬𝘢𝘳𝘪 𝘱𝘭𝘶𝘨𝘪𝘯 
+
+Importing notes:
   * These steps are archived by invoking script 𝘪𝘮𝘱𝘰𝘳𝘵.𝘴𝘩 of project 𝘴𝘱𝘳𝘪𝘯𝘨_𝘳𝘦𝘱𝘰𝘴𝘪𝘵𝘰𝘳𝘺_𝘴𝘵𝘢𝘳𝘵𝘦𝘳_𝘭𝘪𝘣𝘳𝘢𝘳𝘺_𝘵𝘦𝘴𝘵.
   * In case of automation script 𝘪𝘮𝘱𝘰𝘳𝘵.𝘴𝘩 is failed executed because of patching. Below notes will help for manual overcoming:
     * Patching sources are located in folder 𝘱𝘢𝘵𝘤𝘩𝘦𝘴/𝘴𝘱𝘳𝘪𝘯𝘨_𝘵𝘩𝘺𝘮𝘦𝘭𝘦𝘢𝘧_𝘴𝘵𝘢𝘳𝘵𝘦𝘳_𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯.
