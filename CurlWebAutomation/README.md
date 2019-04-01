@@ -3,7 +3,7 @@
 This project is used to test project [𝘴𝘱𝘳𝘪𝘯𝘨_𝘳𝘦𝘱𝘰𝘴𝘪𝘵𝘰𝘳𝘺_𝘴𝘵𝘢𝘳𝘵𝘦𝘳_𝘭𝘪𝘣𝘳𝘢𝘳𝘺](https://github.com/phamsodiep/j2ee_research/tree/master/j2ee_web_application_research/spring_based_web_application_research/spring_repository_starter_library)
 
 ## Procedure
-This test project is developed from 𝘴𝘱𝘳𝘪𝘯𝘨_𝘵𝘩𝘺𝘮𝘦𝘭𝘦𝘢𝘧_𝘴𝘵𝘢𝘳𝘵𝘦𝘳_𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯, employs 𝘴𝘱𝘳𝘪𝘯𝘨_𝘳𝘦𝘱𝘰𝘴𝘪𝘵𝘰𝘳𝘺_𝘴𝘵𝘢𝘳𝘵𝘦𝘳_𝘭𝘪𝘣𝘳𝘢𝘳𝘺. It needs:
+This test project is developed from 𝘴𝘱𝘳𝘪𝘯𝘨_𝘵𝘩𝘺𝘮𝘦𝘭𝘦𝘢𝘧_𝘴𝘵𝘢𝘳𝘵𝘦𝘳_𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯, employs 𝘴𝘱𝘳𝘪𝘯𝘨_𝘳𝘦𝘱𝘰𝘴𝘪𝘵𝘰𝘳𝘺_𝘴𝘵𝘢𝘳𝘵𝘦𝘳_𝘭𝘪𝘣𝘳𝘢𝘳𝘺. To archive this, it does:
 * Applying patch to 𝘴𝘱𝘳𝘪𝘯𝘨_𝘵𝘩𝘺𝘮𝘦𝘭𝘦𝘢𝘧_𝘴𝘵𝘢𝘳𝘵𝘦𝘳_𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯 to create test project.
 * Import 𝘮𝘢𝘷𝘦𝘯 𝘵𝘢𝘬𝘢𝘳𝘪 𝘱𝘭𝘶𝘨𝘪𝘯 to build multiple projects and manage dependency between projects. The related projects are:
   * This project: 𝘴𝘱𝘳𝘪𝘯𝘨_𝘳𝘦𝘱𝘰𝘴𝘪𝘵𝘰𝘳𝘺_𝘴𝘵𝘢𝘳𝘵𝘦𝘳_𝘭𝘪𝘣𝘳𝘢𝘳𝘺_𝘵𝘦𝘴𝘵
@@ -16,12 +16,6 @@ Steps include:
   * Importing 𝘴𝘱𝘳𝘪𝘯𝘨_𝘵𝘩𝘺𝘮𝘦𝘭𝘦𝘢𝘧_𝘴𝘵𝘢𝘳𝘵𝘦𝘳_𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯 for patching
   * 𝘴𝘱𝘳𝘪𝘯𝘨_𝘵𝘩𝘺𝘮𝘦𝘭𝘦𝘢𝘧_𝘴𝘵𝘢𝘳𝘵𝘦𝘳_𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯 patching
   * Importing 𝘮𝘢𝘷𝘦𝘯 𝘵𝘢𝘬𝘢𝘳𝘪 𝘱𝘭𝘶𝘨𝘪𝘯
-* Build
-  * Launch 𝘮𝘢𝘷𝘦𝘯 𝘵𝘢𝘬𝘢𝘳𝘪 𝘱𝘭𝘶𝘨𝘪𝘯 command:
-    * ./mvnw clean package
-* Test
-  * Assuming that the cloned version is 0.0.1-𝘚𝘕𝘈𝘗𝘚𝘏𝘖𝘛, launch target generated spring boot application jar file 𝘵𝘩𝘺𝘮𝘦𝘭𝘦𝘢𝘧-𝘴𝘬𝘦𝘭𝘦𝘵𝘰𝘯-0.0.1-𝘚𝘕𝘈𝘗𝘚𝘏𝘖𝘛.𝘫𝘢𝘳
-    * java -jar spring_thymeleaf_starter_application/target/thymeleaf-skeleton-0.0.1-SNAPSHOT.jar
 * Importing notes:
   * These steps are archived by invoking script 𝘪𝘮𝘱𝘰𝘳𝘵.𝘴𝘩 of project 𝘴𝘱𝘳𝘪𝘯𝘨_𝘳𝘦𝘱𝘰𝘴𝘪𝘵𝘰𝘳𝘺_𝘴𝘵𝘢𝘳𝘵𝘦𝘳_𝘭𝘪𝘣𝘳𝘢𝘳𝘺_𝘵𝘦𝘴𝘵
   * In case of automation script 𝘪𝘮𝘱𝘰𝘳𝘵.𝘴𝘩 is failed executed because of patching. Below notes will help:
@@ -46,25 +40,21 @@ Steps include:
 𝘊𝘶𝘴𝘵𝘰𝘮𝘦𝘳𝘈𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯.𝘫𝘢𝘷𝘢.𝘱𝘢𝘵𝘤𝘩
 ```java
 @SpringBootApplication
-@𝗘𝗻𝗮𝗯𝗹𝗲𝗡𝗲𝘄𝗡𝗼𝘀𝗾𝗹𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗲𝘀
+@EnableNewNosqlRepositories
 public class CustomerApplication {
   ...
 }
 ```
 
 ### Build
-### Test
+* Launch 𝘮𝘢𝘷𝘦𝘯 𝘵𝘢𝘬𝘢𝘳𝘪 𝘱𝘭𝘶𝘨𝘪𝘯 command:
+  * ./mvnw clean package
 
-## Build and test
-* Pre-build, launch import.sh shell script to:
-  * Create the test project by:
-    * Copy
-    * Apply patch
-  * Import maven takari plugin
-* To build, lauch script mvnw:
-  * mvnw clean package
-* To test, lauch jar file in target folder:
-  * E.g. java -jar target/
+### Test
+* Assuming that the cloned version is 0.0.1-𝘚𝘕𝘈𝘗𝘚𝘏𝘖𝘛, launch target generated spring boot application jar file 𝘵𝘩𝘺𝘮𝘦𝘭𝘦𝘢𝘧-𝘴𝘬𝘦𝘭𝘦𝘵𝘰𝘯-0.0.1-𝘚𝘕𝘈𝘗𝘚𝘏𝘖𝘛.𝘫𝘢𝘳
+  * java -jar spring_thymeleaf_starter_application/target/thymeleaf-skeleton-0.0.1-SNAPSHOT.jar
 
 ## Dependent projects
-* This project needs below projects to build
+* This project needs below projects to build:
+  * 𝘴𝘱𝘳𝘪𝘯𝘨_𝘳𝘦𝘱𝘰𝘴𝘪𝘵𝘰𝘳𝘺_𝘴𝘵𝘢𝘳𝘵𝘦𝘳_𝘭𝘪𝘣𝘳𝘢𝘳𝘺
+  * 𝘴𝘱𝘳𝘪𝘯𝘨_𝘵𝘩𝘺𝘮𝘦𝘭𝘦𝘢𝘧_𝘴𝘵𝘢𝘳𝘵𝘦𝘳_𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯
