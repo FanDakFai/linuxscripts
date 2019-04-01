@@ -40,6 +40,7 @@ Steps include:
       </dependencies>
 ```
 
+*
     * File 𝘱𝘰𝘮.𝘹𝘮𝘭.𝘱𝘢𝘵𝘤𝘩 is employed to annotate @𝘌𝘯𝘢𝘣𝘭𝘦𝘕𝘦𝘸𝘕𝘰𝘴𝘲𝘭𝘙𝘦𝘱𝘰𝘴𝘪𝘵𝘰𝘳𝘪𝘦𝘴 to enable library 𝘴𝘱𝘳𝘪𝘯𝘨_𝘳𝘦𝘱𝘰𝘴𝘪𝘵𝘰𝘳𝘺_𝘴𝘵𝘢𝘳𝘵𝘦𝘳_𝘭𝘪𝘣𝘳𝘢𝘳𝘺 in imported project 𝘴𝘱𝘳𝘪𝘯𝘨_𝘵𝘩𝘺𝘮𝘦𝘭𝘦𝘢𝘧_𝘴𝘵𝘢𝘳𝘵𝘦𝘳_𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯:
 
 ```sh
@@ -65,4 +66,4 @@ Steps include:
   * E.g. java -jar target/
 
 ## Dependent projects
-* This project needs below projects to build
+* This project needs below projects to build 
