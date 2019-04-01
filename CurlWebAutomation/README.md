@@ -3,7 +3,7 @@
 Java j2ee skeleton projects that could be used as starter project for application development. There are some notes:
 * All projects are used Maven as build tool (if it is applicable).
 * All projects are developed with Java SE 8.0 and/or Java JEE 7 (EJB 3.2). Source code is encoded as Unicode.
-* All projects are starter projects, more features could be added via patches in folder 𝘶𝘱𝘨𝘳𝘢𝘥𝘦. Please consult file 𝘙𝘌𝘈𝘋𝘔𝘌.𝘮𝘥 of project for detail guideline.
+* All projects are starter projects, more features could be added via patches in folder 𝘶𝘱𝘨𝘳𝘢𝘥𝘦. Please consult file 𝘙𝘌𝘈𝘋𝘔𝘌.𝘮𝘥 of project (if any) for detail guideline.
 ## Project folder structure
 Project folder structure is obeyed Maven conventions.
 Extension points:
