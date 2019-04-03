@@ -16,4 +16,7 @@ A skeleton project to build Spring Boot application that initially applies Sprin
 ## Upgrade patches
 ### google_app_engine
 * This patch adds 𝘮𝘢𝘷𝘦𝘯 pom file and related manifest file to build war artifact which could be launched on Google App Engine standard environment.
-* Launch command ./𝘶𝘱𝘨𝘳𝘢𝘥𝘦/𝘪𝘮𝘱𝘰𝘳𝘵_𝘴𝘤𝘳𝘪𝘱𝘵𝘴/𝘪𝘮𝘱𝘰𝘳𝘵_𝘨𝘰𝘰𝘨𝘭𝘦_𝘢𝘱𝘱_𝘦𝘯𝘨𝘪𝘯𝘦_𝘣𝘶𝘪𝘭𝘥.𝘴𝘩 to patch.
+* Assuming that the target pom file version is 00:
+  * Launch command ./𝘶𝘱𝘨𝘳𝘢𝘥𝘦/𝘪𝘮𝘱𝘰𝘳𝘵_𝘴𝘤𝘳𝘪𝘱𝘵𝘴/𝘪𝘮𝘱𝘰𝘳𝘵_𝘨𝘰𝘰𝘨𝘭𝘦_𝘢𝘱𝘱_𝘦𝘯𝘨𝘪𝘯𝘦_𝘣𝘶𝘪𝘭𝘥.𝘴𝘩 00 to patch.
+  * Launch below 𝘮𝘢𝘷𝘦𝘯 build command to build:
+    * mvn -f gae-pom-00.xml appengine:deploy
